@@ -1,0 +1,680 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+
+}
+a,a:hover{
+	text-decoration: none;
+
+}
+/*header section css start*/
+.header-section{
+	width: 100%;
+	background: url(../images/bg.png)center top no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin: 10px;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+	background: url(../images/br.png)center bottom no-repeat;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+	background: url(../images/br.png)center bottom no-repeat;
+}
+.header-inner h6{
+	color: #08c;
+	margin: 100px 0px 20px 0px;
+	text-transform: uppercase;
+}
+.header-inner h1 {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.header-inner p{
+	margin: 10px 0px 10px 0px;
+	color: #999999;
+}
+.header-inner ul {
+    list-style: none;
+    display: flex;
+    margin-top: 60px;
+}
+.header-inner ul li #a {
+    background: #08c;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+.header-inner ul li #b {
+    padding: 15px;
+    color: white;
+    border: 1px solid grey;
+    background: transparent;
+    border-radius: 5px;
+
+}
+.features{
+
+}
+.feature-title h6 {
+    text-align: center;
+    color: #08c;
+    margin: 50px 0 10px 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+.feature-title h1 {
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.feature-inner{
+	margin: auto;
+	text-align: center;
+	margin-top: 70px;
+	padding-bottom: 30px;
+}
+.feature-inner img {
+    border-radius: 50% 50% 50% 50%;
+    margin: 15px;
+    border: 1px solid grey;
+    padding: 20px;
+}
+.feature-inner h5 {
+    margin: 15px;
+}
+.feature-inner p{
+	margin: 10px;
+	color: #999999;
+
+}
+.details{
+	margin-top: 80px;
+}
+.details-img{
+	wid;th: 100%
+}
+.details-inner{
+	margin-top: 50px;
+}
+.details-inner h6 {
+    color: #08c;
+    font-size: 12px;
+    font-weight: 800;
+}
+.details-inner h1 {
+    font-weight: 700;
+    margin: 10px 0 10px 0;
+}
+.details-inner img{
+
+}
+.details-inner p {
+    margin: 10px 0 70px 0;
+    color: #999999;
+}
+.details-inner ul{
+	list-style: none;
+	display: flex;
+}
+.details-inner ul li{
+
+}
+.details-inner ul li img{
+
+} 
+.details-inner ul li h5 {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0 0px 0 10px;
+} 
+.more-details {
+    background: #F2F2F2;
+    padding-top: 50px;
+}
+
+.more-details .det-img img{
+	width: 100%;
+}
+.dip-inner{
+	padding-top: 80px;
+}
+.dip-inner h6 {
+    color: #08c;
+    font-size: 12px;
+    font-weight: 800;
+}
+.dip-inner h1 {
+    margin: 10px 0 10px 0;
+    font-weight: 600;
+}
+.dip-inner p {
+    margin-top: 15px;
+    color: #999999;
+}
+.testimonial{
+	width: 100%;
+	padding: 70px 0px;
+	background: url(../images/slider.png) center top no-repeat;
+	background-size: cover;
+} 
+.testimonial .feature-title h1{
+	color: #fff;
+}
+.testimonial .feature-title img{
+	padding-bottom: 65px;
+}
+.testimonial .testi-inner {
+    width: 100%;
+    padding-bottom: 70px;
+}
+.testimonial .testi-inner h4 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: italic;
+}
+.testimonial .testi-inner .media img {
+    width: 50px;
+    padding-top: 15px;
+}
+.testimonial .testi-inner .media h5 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 50px;
+}
+.testimonial .testi-inner .media p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 0px;
+}
+.add{
+	background: black;
+}
+
+.add-inner{
+	display: flex;
+	padding-top: 50px;
+}
+.add-inner h3 {
+    color: white;
+    padding: 0px 0 0 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.add-inner span {
+    color: white;
+    padding: 8px 0 0 0;
+    margin-left: 15px;
+    font-size: 28px;
+}
+.add .add-inner-btn {
+    padding: 0px 0 40px 0;
+}
+.add ul{
+    list-style: none;
+    display: flex;
+    margin-top: 60px;
+}
+.add ul li #a{
+    padding: 15px;
+    color: white;
+    border: 1px solid grey;
+    background: transparent;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+.add ul li #b{
+    background: #08c;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px; 
+}
+.card{
+	text-align: center;
+}
+.pricing{
+	width: 100%;
+	padding: 80px 0px; 
+}
+.pricing .feature-title{
+	width: 100%;
+	padding: 0px 0px 50px;
+}
+.main-price{
+	width: 100%;
+}
+.main-price .card .card-header {
+    background: transparent;
+    padding: 20px 0px;
+}
+.main-price .card .card-header h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px;
+    font-size: 25px;
+}
+.main-price .card .card-title{
+	padding: 30px 0;
+	margin: 0px;
+}
+.main-price .card .card-title h1 {
+    font-size: 60px;
+    margin: 0px;
+
+    font-weight: 700;
+}
+.main-price .card .card-title p{
+	font-size: 14px;
+    margin: 0px;
+    font-weight: 400;
+    color: #aaa
+}
+.card-body{
+	padding: 0px 0px;
+}
+.price-inner {
+    width: 100%;
+    padding: 40px 20px 20px;
+    border-top: 1px solid #aaa;
+}
+.price-inner p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #aaa;
+    font-weight: 300;
+}
+.price-inner .card-text{
+	
+}
+.price-inner .btn-primary {
+    padding: 10px 35px;
+    background: transparent;
+    color: #08c;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.main-price:hover .btn-primary{
+	background: #08c;
+	color: #fff;
+}
+.main-price:hover .card-header h3{
+	color: #0099cc
+}
+.main-price:hover .card-title{
+	background: #0099cc;
+	color: #fff;
+}
+.main-price:hover .card-title h1,.main-price:hover .card-title p{
+	color: #fff;
+}
+.contact{
+	background: #EDEDED;
+	padding-top: 50px;
+}
+.contact .inner-contact{
+	margin-top: 70px;
+}
+.contact .inner-contact img {
+    padding: 0px 0 25px 0;
+}
+.contact .inner-contact p{
+	padding-bottom: 60px;
+}
+.main-form {
+    width: 100%;
+    background: #000;
+    padding: 70px 50px;
+    margin-bottom: -150px;
+}
+.form-control{
+	background: transparent;
+	padding: 10px 20px;
+}
+.form-group .btn{
+	background: #008ED6 !important;
+	color: white;
+}
+.map{
+	width: 100%;
+
+}
+.social-icons {
+    background: black;
+    padding: 50px 0px 20px 0;
+}
+.icons{
+	color:#444348;
+}
+.icons ul{
+	list-style:none;
+	display: flex;
+	text-align: center;
+}
+.icons ul li {
+    text-align: center;
+    margin: auto;
+}
+.icons ul li i{
+	font-size: 20px;
+}
+.icon-text{
+
+}
+.icon-text p {
+    text-align: center;
+    margin: 0px;
+    padding-top: 15px;
+}
+.icons ul li i:hover{
+	color: #08c;
+}
+
+
+
+/*Responsive code start*/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /*css start*/
+  .header-section {
+    width: 100%;
+    background: url(../images/bg.png)center top no-repeat;
+    background-size: cover;
+    height: 170vh;
+}
+  .header-inner h1 {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.header-inner p {
+    margin: 0px 75px 0px 0px;
+    color: #999999;
+    line-height: 20px;
+}
+.header-inner ul li #a {
+    background: #08c;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.header-inner ul li #b {
+    padding: 7px;
+    color: white;
+    border: 1px solid grey;
+    background: transparent;
+    border-radius: 5px;
+}
+.feature-inner {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+  .details-img img {
+   display: none;
+}
+.details-inner {
+    margin-top: 0px;
+}
+.details-inner h1 {
+    font-weight: 600;
+    margin: 0px 0 0px 0;
+    font-size: 25px;
+}
+.details-inner p {
+    margin: 10px 0 30px 0;
+    color: #999999;
+}
+.dip-inner {
+    padding-top: 0;
+}
+.testimonial .testi-inner h4 {
+    color: #fff;
+    font-size: 17px;
+    line-height: 24px;
+    font-style: italic;
+    padding: 0 20px 0px 20px;
+}
+.testimonial {
+    width: 100%;
+    padding: 0px 0px;
+    background: url(../images/slider.png) center top no-repeat;
+    background-size: cover;
+}
+.testimonial .testi-inner .media img {
+    width: 50px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.testimonial .testi-inner .media img {
+    width: 50px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.add-inner {
+    display: flex;
+    padding-top: 20px;
+}
+.add .add-inner-btn {
+    padding: 0px 0 30px 0;
+}
+.add ul li #a {
+    padding: 15px;
+    color: white;
+    border: 1px solid grey;
+    background: transparent;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.pricing {
+    width: 100%;
+    padding: 0px;
+}
+.main-price {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact .inner-contact {
+    margin-top: 0px;
+}
+.form-control {
+    background: transparent;
+    padding: 5px 14px;
+}
+.social-icons {
+    background: black;
+    padding: 20px 0px 0px 0;
+}
+.icons ul li {
+    text-align: center;
+    margin: 5px auto;
+}
+.social-icons {
+    background: black;
+    padding: 10px 0px 0px 0;
+}
+.icon-text p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px 0 10px 0;
+}
+.icons ul{
+	margin: 0px;
+}
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /*css start*/
+  .header-section {
+    width: 100%;
+    background: url(../images/bg.png)center top no-repeat;
+    background-size: cover;
+    height: 140vh;
+}
+  .header-inner h1 {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.header-inner p {
+    margin: 0px 75px 0px 0px;
+    color: #999999;
+    line-height: 20px;
+}
+.header-inner ul li #a {
+    background: #08c;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.header-inner ul li #b {
+    padding: 7px;
+    color: white;
+    border: 1px solid grey;
+    background: transparent;
+    border-radius: 5px;
+}
+.feature-inner {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+  .details-img img {
+   display: none;
+}
+.details-inner {
+    margin-top: 0px;
+}
+.details-inner h1 {
+    font-weight: 600;
+    margin: 0px 0 0px 0;
+    font-size: 25px;
+}
+.details-inner p {
+    margin: 10px 0 30px 0;
+    color: #999999;
+}
+.dip-inner {
+    padding-top: 0;
+}
+.testimonial .testi-inner h4 {
+    color: #fff;
+    font-size: 17px;
+    line-height: 24px;
+    font-style: italic;
+    padding: 0 20px 0px 20px;
+}
+.testimonial {
+    width: 100%;
+    padding: 0px 0px;
+    background: url(../images/slider.png) center top no-repeat;
+    background-size: cover;
+}
+.testimonial .testi-inner .media img {
+    width: 50px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.testimonial .testi-inner .media img {
+    width: 50px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.add-inner {
+    display: flex;
+    padding-top: 20px;
+}
+.add .add-inner-btn {
+    padding: 0px 0 30px 0;
+}
+.add ul li #a {
+    padding: 15px;
+    color: white;
+    border: 1px solid grey;
+    background: transparent;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.pricing {
+    width: 100%;
+    padding: 0px;
+}
+.main-price {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact .inner-contact {
+    margin-top: 0px;
+}
+.form-control {
+    background: transparent;
+    padding: 5px 14px;
+}
+.social-icons {
+    background: black;
+    padding: 20px 0px 0px 0;
+}
+.icons ul li {
+    text-align: center;
+    margin: 5px auto;
+}
+.social-icons {
+    background: black;
+    padding: 10px 0px 0px 0;
+}
+.icon-text p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px 0 10px 0;
+}
+.icons ul{
+	margin: 0px;
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+ 
+}
